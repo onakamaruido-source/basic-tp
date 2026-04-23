@@ -1,1 +1,49 @@
 
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 30px;
+}
+
+.game-box, .ranking-box {
+  background: rgba(255,255,255,0.15);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+}
+
+#word {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+#input {
+  padding: 10px;
+  font-size: 20px;
+  width: 80%;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #fff;
+  color: #333;
+}
+
+ol {
+  text-align: left;
+  display: inline-block;
+}
