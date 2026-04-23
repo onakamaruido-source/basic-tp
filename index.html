@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Battle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Typing Battle</h1>
 
+    <div class="game-box">
+      <p>残り時間: <span id="time">30</span></p>
+      <p>スコア: <span id="score">0</span></p>
+      <h2 id="word">start</h2>
+      <input type="text" id="input" autocomplete="off" autofocus>
+      <button onclick="startGame()">スタート</button>
+    </div>
+
+    <div class="ranking-box">
+      <h2>ランキング TOP10</h2>
+      <ol id="ranking"></ol>
+    </div>
+  </div>
+
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="game.js"></script>
+</body>
+</html>
